@@ -49,7 +49,7 @@ jobs:
         mv 1.17.6 1.16.13
     - name: Build Firmware
       env:
-        TNAME: K2P
+        TNAME: K2P-5.0
         KERNEL: 3.4
       run: |
         cd /opt/rt-n56u/trunk
